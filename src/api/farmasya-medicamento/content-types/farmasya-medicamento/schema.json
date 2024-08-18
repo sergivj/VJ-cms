@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "farmasya_medicamentos",
+  "info": {
+    "singularName": "farmasya-medicamento",
+    "pluralName": "farmasya-medicamentos",
+    "displayName": "FarmaSyA | Medicamento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Cantidad": {
+      "type": "string"
+    }
+  }
+}
